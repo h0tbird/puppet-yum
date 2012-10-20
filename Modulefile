@@ -1,0 +1,8 @@
+name            'h0tbird-yum'
+version         '0.0.1'
+source          'https://github.com/h0tbird/puppet-yum'
+author          'Marc Villacorta'
+license         'GPL'
+summary         'Yum Module'
+description     'Manages the YUM services.'
+project_page    'https://github.com/h0tbird/puppet-yum'
