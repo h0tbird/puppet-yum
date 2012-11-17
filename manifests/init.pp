@@ -79,19 +79,19 @@
 #
 class yum (
 
-    $version,
-    $cachedir,
-    $keepcache,
-    $debuglevel,
-    $logfile,
-    $exactarch,
-    $obsoletes,
-    $gpgcheck,
-    $plugins,
-    $installonly_limit,
-    $bugtracker_url,
-    $distroverpkg,
-    $repos,
+    $version           = undef,
+    $cachedir          = undef,
+    $keepcache         = undef,
+    $debuglevel        = undef,
+    $logfile           = undef,
+    $exactarch         = undef,
+    $obsoletes         = undef,
+    $gpgcheck          = undef,
+    $plugins           = undef,
+    $installonly_limit = undef,
+    $bugtracker_url    = undef,
+    $distroverpkg      = undef,
+    $repos             = undef,
 
 ) {
 
